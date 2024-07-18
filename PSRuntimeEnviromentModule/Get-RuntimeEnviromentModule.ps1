@@ -2,7 +2,7 @@ Function Get-RuntimeEnviromentModule
 {
 <#
 	.SYNOPSIS
-		Remove PowerShell module from Runtime Environment.
+		Get PowerShell module from Runtime Environment.
 
 	.EXAMPLE
 $Params = @{
