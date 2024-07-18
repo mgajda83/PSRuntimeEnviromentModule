@@ -2,7 +2,7 @@ Function Install-RuntimeEnviromentModule
 {
 <#
 	.SYNOPSIS
-		Remove PowerShell module from Runtime Environment.
+		Install PowerShell module from Runtime Environment.
 
 	.EXAMPLE
 $Module = Find-Module -Name PSMSAL -Repository PSGallery
