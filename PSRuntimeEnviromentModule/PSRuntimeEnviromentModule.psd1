@@ -69,7 +69,7 @@
     # NestedModules = @()
 
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-    FunctionsToExport = @('Get-PSRuntimeEnviromentModule','Install-PSRuntimeEnviromentModule','Remove-PSRuntimeEnviromentModule')
+    FunctionsToExport = @('Get-RuntimeEnviromentModule','Install-RuntimeEnviromentModule','Remove-RuntimeEnviromentModule')
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
     CmdletsToExport = '*'
@@ -87,7 +87,7 @@
     # ModuleList = @()
 
     # List of all files packaged with this module
-    FileList = @('PSRuntimeEnviromentModule.psd1','PSRuntimeEnviromentModule.psm1','Get-PSRuntimeEnviromentModule.ps1','Install-PSRuntimeEnviromentModule.ps1','Remove-PSRuntimeEnviromentModule.ps1')
+    FileList = @('PSRuntimeEnviromentModule.psd1','PSRuntimeEnviromentModule.psm1','Get-RuntimeEnviromentModule.ps1','Install-RuntimeEnviromentModule.ps1','Remove-RuntimeEnviromentModule.ps1')
 
     # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
     PrivateData = @{
